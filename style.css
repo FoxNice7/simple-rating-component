@@ -8,6 +8,9 @@
      font-style: normal;
      transition: ease-in-out 0.3s;
  }
+ @media (prefers-reduced-motion: reduce) {
+     *{transition: ease-in-out 1s;}
+ }
 
  body {
      background-color: rgba(20, 21, 25);
@@ -96,7 +99,7 @@
      border-radius: 2rem;
      background-color: rgba(255, 117, 13);
      font-weight: 600;
-     font-size: 18px;
+     font-size: 1.2rem;
      color: rgb(0, 0, 0);
  }
 
